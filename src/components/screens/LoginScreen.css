@@ -1,0 +1,93 @@
+.logo-netflix {
+    position: fixed;
+    left: 10px;
+    width: 85px;
+    object-fit: contain;
+    padding-left: 35px;
+    cursor: pointer;
+    top: 5px;
+    height: 85px;
+}
+
+.loginScreen { 
+    position: relative;
+    height: 100%;
+    background: url('https://8f430952.rocketcdn.me/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.login-button { 
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.login-gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%,
+    );
+}
+
+.login-body {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 30%;
+    text-align: center;
+    padding: 20px;
+    width: 700px;
+    left: 25%;
+    right: 25%;
+}
+
+.login-body > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.login-body > h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.login-input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 21px;
+    width: 30%;
+    border: 1px;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.login-getStarted { 
+    padding: 11px 20px;
+    font-size: 1rem; 
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-input{
+    margin: 20px;
+}
