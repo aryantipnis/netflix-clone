@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginScreen.css';
-import HomeScreen from './HomeScreen';
 
 function LoginScreen() {
     const navigate = useNavigate();
