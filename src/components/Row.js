@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import './Row.css';
 import axios from './axios';
 
 function Row({title, fetchUrl, isLargeRow = false}) {
   const [movies, setMovies] = useState([]);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   const base_url = "https://image.tmdb.org/t/p/original/";
 
   useEffect(() => {
