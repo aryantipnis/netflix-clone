@@ -1,4 +1,4 @@
-Here are a few screenshots of this clone: 
+This app is hosted on: https://thriving-alfajores-27c41f.netlify.app. Here are a few screenshots of this clone: 
 
 Login Screen : 
 <img width="1440" alt="Screenshot 2024-01-29 at 6 20 45 PM" src="https://github.com/aryantipnis/netflix-clone/assets/94209664/681e2610-68cd-40ee-86fd-8cba2a73ae38">
